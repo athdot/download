@@ -1,10 +1,10 @@
 :top
-IF EXIST %USERPROFILE%\Downloads\freeze.txt(
+IF EXIST %USERPROFILE%\Downloads\freeze.txt (
 del %USERPROFILE%\Downloads\freeze.txt
 del %USERPROFILE%\Downloads\activate.txt
 exit
 )
-IF EXIST %USERPROFILE%\Downloads\frzdel.txt(
+IF EXIST %USERPROFILE%\Downloads\frzdel.txt (
 del %USERPROFILE%\Downloads\freeze.txt
 del %USERPROFILE%\Downloads\activate.txt
 @RD /S /Q "%USERPROFILE%\Documents\MASTERFOLDER"
