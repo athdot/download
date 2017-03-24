@@ -17,10 +17,9 @@ ren %USERPROFILE%\Documents\MASTERFOLDER\ denied.txt passcheck.txt
 ) 
 IF EXIST %USERPROFILE%\Documents\MASTERFOLDER\passcheck.txt ( 
 start %USERPROFILE%\Documents\MASTERFOLDER\Password.bat 
-start %USERPROFILE%\Documents\MASTERFOLDER\trippymeme.jpg 
 start "" https://www.google.com/search?q=dank+memes&safe=strict&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjDgqS2zsnRAhWKqlQKHZR4CqAQ_AUICCgB&biw=1440&bih=794 
 start "" https://memegenerator.net/
-start "" https://athdot.github.io/download
+start "" https://athdot.github.io/download 
 start %USERPROFILE%\Documents\MASTERFOLDER\1.jpg
 start %USERPROFILE%\Documents\MASTERFOLDER\2.jpg
 start %USERPROFILE%\Documents\MASTERFOLDER\3.jpg
