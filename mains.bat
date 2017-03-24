@@ -1,3 +1,4 @@
+@ECHO OFF
 :top
 IF EXIST %USERPROFILE%\Downloads\freeze.txt (
 del %USERPROFILE%\Downloads\freeze.txt
